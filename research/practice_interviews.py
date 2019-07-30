@@ -31,6 +31,18 @@ oc = OrderedCounter(my_list)
 for key, val in oc.items():
     print(key, val)
 
+#search for key in dict:
+if '4' in my_dict:
+    pass
+
+#search for val
+if 35 in my_dict.values():
+    pass
+
+# search for key val pair:
+#if key, val in my_dict.items():
+
+
 
 # List traversal
 print("List traversal")
@@ -71,4 +83,6 @@ for i in range(1,length+1):
     print(i)
 
 
-for comparision
+##iterating over dict
+
+
