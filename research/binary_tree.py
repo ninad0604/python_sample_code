@@ -31,3 +31,6 @@ class Node:
 
     def __repr__(self):
         return str({"data": [self.data],"left":[self.left],"right":[self.right]})
+
+
+

@@ -83,6 +83,20 @@ for i in range(1,length+1):
     print(i)
 
 
-##iterating over dict
+##unpacking a list
+
+mylist = [1,2,3,4,5,6,7,8,9,0]
+
+my_list = [1, 2, 3]
+
+
+def fun1(*args):
+    sum = 0
+    for i in range(0, len(args)):
+        sum = sum + args[i]
+    return sum
+
+
+print(fun1(*mylist))
 
 
